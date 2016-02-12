@@ -2,6 +2,14 @@
 
 Implementasi Logistic Regression dan Feedforward Neural Nets dalam python.
 
+Dependencies:
+* python >= 2.7.x
+* Numpy / Scipy
+* Theano: http://deeplearning.net/software/theano/
+* Keras: http://keras.io/ 
+
+
+
 ## Main file
 * logistic_regression.py
 * neural_net.py
