@@ -1,6 +1,6 @@
 # soca-dltutorial
 
-Implementasi Logistic Regression dan Feedforward Neural Nets dalam python.
+Kode Logistic Regression dan Feedforward Neural Nets dalam python yang digunakan pada sesi tutorial SOCA tentang deep learning.
 
 Dependencies:
 * python >= 2.7.x
