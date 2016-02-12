@@ -31,12 +31,19 @@ Y_test = np_utils.to_categorical(y_test, nb_classes=10)
 
 # Create logistic regression model
 model = Sequential()
-model.add(Dense(10, input_dim=256))
+
+model.add(Dense(100, input_dim=256))
+model.add(Activation('relu')) 
+
+model.add(Dense(100))
+model.add(Activation('relu'))
+
+model.add(Dense(10))
 model.add(Activation('softmax'))
 
 
 # Define optimizer and loss function
-opt = SGD(lr=1e-2, momentum=0.9, nesterov=True)
+opt = SGD(lr=1e-3, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=opt)
 
 
