@@ -26,7 +26,7 @@ import gzip
 ```
 
 ### IPython
-Jika anda menggunakan IPython, simulasi dapat dijalankan dari web browser dengan cara:
+Jika anda menggunakan (IPython Notebook/Jupyter)[https://jupyter.org/] , simulasi dapat dijalankan dari web browser dengan cara:
 ```python
 ipython notebook soca_demo.ipynb
 ```
