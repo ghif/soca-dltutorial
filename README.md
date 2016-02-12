@@ -16,3 +16,9 @@ import cPickle as pickle
 import gzip
 (X_train, Y_train), (X_test, Y_test) = pickle.load(gzip.open("usps.pkl.gz","rb"))
 ```
+
+### IPython
+Jika anda menggunakan IPython, simulasi dapat dijalankan dari web browser dengan cara:
+```python
+ipython notebook soca_demo.ipynb
+```
