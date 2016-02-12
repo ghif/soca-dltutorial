@@ -7,10 +7,10 @@ Implementasi Logistic Regression dan Feedforward Neural Nets dalam python.
 * neural_net.py
 
 
-## Dataset
+### Dataset
 * usps.pkl.gz: file yang berisi handwritten digits
 
 Dapat di-load dengan cara sbb:
-import cPickle as pickle
-import gzip
-(X_train, Y_train), (X_test, Y_test) = pickle.load(gzip.open("usps.pkl.gz","rb"))
+> import cPickle as pickle
+> import gzip
+> (X_train, Y_train), (X_test, Y_test) = pickle.load(gzip.open("usps.pkl.gz","rb"))
