@@ -12,5 +12,7 @@ Implementasi Logistic Regression dan Feedforward Neural Nets dalam python.
 
 Dapat di-load dengan cara sbb:
 > import cPickle as pickle
+
 > import gzip
+
 > (X_train, Y_train), (X_test, Y_test) = pickle.load(gzip.open("usps.pkl.gz","rb"))
